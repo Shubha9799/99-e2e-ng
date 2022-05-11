@@ -1,0 +1,60 @@
+<div  class="border border-info m-2 p-3" style="background-color: lightgoldenrodyellow;">
+  <h2 style="color: blue;">Contact Form</h2>
+  {{myform.value | json}}
+  <br>
+  
+  <form novalidate [formGroup]="myform">
+      <fieldset>
+          <div class="form-group">
+              <label>First Name</label>
+              <input formControlName="fname" type="text" class="form-control" required>
+              <div class="text-danger" *ngIf=" myform.controls['fname'].touched && myform.controls['fname'].invalid">
+                *Please enter your first name
+            </div>
+          </div>
+          <div class="form-group">
+              <label>Last Name</label>
+              <input formControlName="lname" type="text" class="form-control">
+              <div class="text-danger" *ngIf=" myform.controls['lname'].touched && myform.controls['lname'].invalid">
+                Please enter your last name
+            </div>
+          </div>
+      </fieldset>
+      <div class="form-group">
+          <label>Email</label>
+          <input formControlName="email" type="email" class="form-control" required>
+          <div class="text-danger" *ngIf=" myform.controls['email'].touched && myform.controls['email'].invalid">
+              <p *ngIf="myform.controls['email'].errors?.['required']">Email is required</p>
+              <p *ngIf="myform.controls['email'].errors?.['pattern']">enter valid email id</p>
+              
+        </div>
+      </div>
+      <div class="form-group">
+          <label>Password</label>
+          <input formControlName="password" type="password" class="form-control" required>
+          <div class="text-danger" *ngIf="myform.controls['password'].touched && myform.controls['password'].invalid ">
+            <p *ngIf="myform.controls['password'].errors?.['required']">*password is required</p>
+            <p *ngIf="myform.controls['password'].errors?.['minlength']">Password must be atleast 5 characters</p>
+              <p *ngIf="myform.controls['password'].errors?.['maxlength']">Password can have max 8 characters</p>
+        </div>
+      </div>
+      <div class="form-group">
+          <label>Language</label>
+          <select formControlName="lang" class="form-control">
+              <option value="">Please select a language</option>
+              <option [value]="lang" *ngFor="let lang of langs">{{lang}}</option>
+          </select>
+          <div class="text-danger" *ngIf="myform.controls['lang'].touched && myform.controls['lang'].invalid ">
+            Choose atleast one language
+          </div>
+      </div>
+      <br>
+     {{myform.value|json}}
+      <br>
+
+      <!--<button [disabled]="myform.invalid" type="button" class="btn btn-primary" value="Submit">Submit</button>-->
+      <button class="btn btn-primary" (click)="getValues()">Submit</button>
+     
+    </form>
+</div>
+

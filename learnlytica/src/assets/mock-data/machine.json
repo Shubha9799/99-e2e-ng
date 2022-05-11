@@ -1,0 +1,140 @@
+{
+    "sub-home": {
+        "data": [
+            {
+                "_id": "61a9d6830cf2b33fc58e31c4",
+                "spayee:resource": {
+                    "spayee:title": "Advanced Reinforcement Learning",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "advanced-reinforcement-learning",
+                    "spayee:courseType": "normal",
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:coverVersion": 1,
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 1599,
+                    "spayee:price": 1499,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 1599,
+                                    "price": 1499,
+                                    "id": "v1-1599-1499",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR499"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            },
+            {
+                "_id": "61ab464d0cf2a71c513a1279",
+                "spayee:resource": {
+                    "spayee:title": "Data Architecture",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "Data-Architecture-V2",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 1,
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 1599,
+                    "spayee:price": 1499,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 1599,
+                                    "price": 1499,
+                                    "id": "v1-1599-1499",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR499"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            },
+            {
+                "_id": "61b09a460cf2b9a80cb0091d",
+                "spayee:resource": {
+                    "spayee:title": "Advanced CNN & RNN",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "Advanced-CNN--RNN",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 1,
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 1599,
+                    "spayee:price": 1499,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 1599,
+                                    "price": 1499,
+                                    "id": "v1-1599-1499",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR499"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            },
+            {
+                "_id": "61b1a6e90cf294f9b37687d5",
+                "spayee:resource": {
+                    "spayee:title": "ML-DL Best Practices",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "ML-DL-Best-Practices",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 1,
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 1699,
+                    "spayee:price": 1599,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 1699,
+                                    "price": 1599,
+                                    "id": "v1-1699-1599",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR599"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            }
+        ],
+        "total": 7,
+        "limit": 4,
+        "skip": 0
+    },
+    "response": true
+}

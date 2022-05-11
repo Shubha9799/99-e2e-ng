@@ -1,0 +1,34 @@
+
+<div class="border border-info m-2 p-3" style="background-color: lightgoldenrodyellow;">
+    <h2 style="color: blue;">Login Form</h2>
+  <form novalidate [formGroup]="myform1">
+    <fieldset>
+        <div class="form-group">
+            <label>Username </label>
+            <input formControlName="Uname" type="text" class="form-control">
+            <div class="text-danger" *ngIf=" myform1.controls['Uname'].touched && myform1.controls['Uname'].invalid">
+                *Please enter your name
+            </div>
+        </div>
+        
+    </fieldset>
+   
+    <div class="form-group">
+        <label>Password</label>
+        <input formControlName="password" type="password" class="form-control">
+        <div class="text-danger" *ngIf="myform1.controls['password'].touched && myform1.controls['password'].invalid ">
+            <p *ngIf="myform1.controls['password'].errors?.['required']">*password is required</p>
+            <p *ngIf="myform1.controls['password'].errors?.['minlength']">Password must be atleast 4 characters</p>
+              <p *ngIf="myform1.controls['password'].errors?.['maxlength']">Password can have max 8 characters</p>
+        </div>
+    </div>
+    
+
+   {{myform1.value|json}}
+    <br>
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button [disabled]="myform1.invalid" type="button" class="btn btn-primary" value="Submit">Login</button>
+    </form>
+</div>
+
+

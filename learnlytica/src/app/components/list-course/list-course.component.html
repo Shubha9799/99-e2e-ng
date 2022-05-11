@@ -1,0 +1,150 @@
+<p>list profile works</p>
+<h1>{{myTitle | title:'MEAN AND MERN:'}}</h1> 
+
+<h1>{{myTitle | title}}</h1>
+
+<pre>
+    {{300|bracket}}
+</pre>
+
+<br>
+<h5>Data from database</h5><pre>(learn_dbconn)</pre>
+<div class="container" style="border: 2px solid #5755d9;">
+<!--Backend call  from express node application-->
+
+<table *ngFor="let user of userList" style="border:1 px solid blue;">
+    <tr>
+      <th>Fname</th>
+      <th>Lname</th>
+      <th>Company</th>
+      <th>Designation</th>
+      <th>Address</th>
+      <th>Join_date</th>
+    </tr>
+    <tr>
+      <td>{{user.Fname}}</td>
+      <td>{{user.Lname}}</td>
+      <td>{{user.Company}}</td>
+      <td>{{user.Designation}}</td>
+      <td>{{user.Address}}</td>
+      <td>{{user.Join_date}}</td>
+    </tr>
+  </table>
+</div>
+  
+
+<br>
+
+<div class="container">
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" style="background: #5755d9;"   type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Category
+        </button>
+    </div>
+    <br>
+    <div class="row border-bottom" style="margin-top: 50px;">
+        <div class="col-10">
+    <h3 style="color: gray;">DevOps</h3>
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-outline-secondary">View all</button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col" *ngFor="let course of cList?.['sub-home'].data">
+                <!-- {{course._id | json}} -->
+                <app-course [imgid]="course._id" [configs]="course['spayee:resource']">
+                </app-course>
+            </div>
+        </div>
+    
+    </div>
+
+<br>
+
+
+<div class="container">
+    <div class="row border-bottom" style="margin-top: 50px;">
+        <div class="col-10">
+    <h3 style="color: gray;">Cloud Computing</h3>
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-outline-secondary">View all</button>
+        </div>
+    
+    </div>
+    <br>
+    <div class="row">
+        <div class="col" *ngFor="let course of dList?.['sub-home'].data">
+            <!-- {{course._id | json}} -->
+            <app-course [imgid]="course._id" [configs]="course['spayee:resource']">
+            </app-course>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row border-bottom" style="margin-top: 50px;">
+            <div class="col-10">
+        <h3 style="color: gray;">App Development</h3>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-outline-secondary">View all</button>
+            </div>
+        
+        </div>
+        <br>
+        <div class="row">
+            <div class="col" *ngFor="let course of eList?.['sub-home'].data">
+                <!-- {{course._id | json}} -->
+                <app-course [imgid]="course._id" [configs]="course['spayee:resource']">
+                </app-course>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row border-bottom" style="margin-top: 50px;">
+                <div class="col-10">
+            <h3 style="color: gray;">Machine Learning</h3>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-outline-secondary">View all</button>
+                </div>
+            
+            </div>
+            <br>
+            
+            <div class="row">
+                <div class="col" *ngFor="let course of fList?.['sub-home'].data">
+                    <!-- {{course._id | json}} -->
+                    <app-course [imgid]="course._id" [configs]="course['spayee:resource']">
+                    </app-course>
+                </div>
+            </div>
+
+
+            
+            
+           
+            
+            <br>
+            
+            
+            <div class="container">
+                <div class="row border-bottom" style="margin-top: 50px;">
+                    <div class="col-10">
+                <h3 style="color: gray;">Software Testing</h3>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-outline-secondary">View all</button>
+                    </div>
+                
+                </div>
+            <br>
+            
+            <div class="row">
+                <div class="col" *ngFor="let course of gList?.['sub-home'].data">
+                    <!-- {{course._id | json}} -->
+                    <app-course [imgid]="course._id" [configs]="course['spayee:resource']">
+                    </app-course>
+                </div>
+            </div>

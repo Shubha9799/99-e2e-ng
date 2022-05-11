@@ -1,0 +1,142 @@
+{
+    "sub-home": {
+        "data": [
+            {
+                "_id": "61a9e34f0cf2f90364772b94",
+                "spayee:resource": {
+                    "spayee:title": "Cloud Automation for DevOps",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "Cloud-Automation-for-DevOps",
+                    "spayee:courseType": "normal",
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:coverVersion": 1,
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 1699,
+                    "spayee:price": 1599,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 1699,
+                                    "price": 1599,
+                                    "id": "v1-1699-1599",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR599"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            },
+            {
+                "_id": "61aa20e00cf2f90364776078",
+                "spayee:resource": {
+                    "spayee:title": "Azure Data Warehousing",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "Data-Warehousing-with-Azure-1638539488084",
+                    "spayee:courseType": "normal",
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:coverVersion": 1,
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 1599,
+                    "spayee:price": 1499,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 1599,
+                                    "price": 1499,
+                                    "id": "v1-1599-1499",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR599"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            },
+            {
+                "_id": "61adc9790cf29556db8088ee",
+                "spayee:resource": {
+                    "spayee:title": "AWS Solution Architect Training (Live Training recording)",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "AWS-Solution-Architect-Training",
+                    "spayee:courseType": "normal",
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:coverVersion": 1,
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 9999,
+                    "spayee:price": 5999,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 9999,
+                                    "price": 5999,
+                                    "id": "v1-9999-5999",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR5999"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            },
+            {
+                "_id": "61af23880cf29556db81488e",
+                "spayee:resource": {
+                    "spayee:title": "Solutioning Cloud Operations",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "CloudOps-Solutioning",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 1,
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 1499,
+                    "spayee:price": 1399,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 1499,
+                                    "price": 1399,
+                                    "id": "v1-1499-1399",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR399"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            }
+        ],
+        "total": 10,
+        "limit": 4,
+        "skip": 0
+    },
+    "response": true
+}

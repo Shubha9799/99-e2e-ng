@@ -1,0 +1,53 @@
+<h5>Template driven form</h5>
+<form #f="ngForm" novalidate>
+    {{f.value|json}}
+    <div class="form-group">
+        <label>First Name</label>
+        <input ngModel name="fname" type="text" class="form-control" #myFname="ngModel" required>
+        <div class="text-danger" *ngIf=" myFname.touched && myFname.invalid">
+            *Please enter your first name
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Last Name</label>
+        <input name="lname" ngModel type="text" class="form-control" #mylname="ngModel" required >
+        <div class="text-danger" *ngIf=" mylname.touched && mylname.invalid">
+            *Please enter your last name
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input name="email" ngModel type="email" class="form-control" #myemail="ngModel"required>
+        <div class="text-danger" *ngIf=" myemail.touched && myemail.invalid">
+            <p *ngIf="myemail.errors?.['required']">Email is required</p>
+            <p *ngIf="myemail.errors?.['pattern']">enter valid email id</p>
+            
+      </div>
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input name="password" ngModel type="password" class="form-control" minlength="4" maxlength="8" #mypswd="ngModel">
+        <div class="text-danger" *ngIf="mypswd.touched && mypswd.invalid ">
+            <p *ngIf="mypswd.errors?.['required']">*password is required</p>
+            <p *ngIf="mypswd.errors?.['minlength']">Password must be atleast 5 characters</p>
+              <p *ngIf="mypswd.errors?.['maxlength']">Password can have max 8 characters</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Language</label>
+        <select name="mylang" ngModel class="form-control" #mylangs="ngModel" required>
+            <option value=" ">Please choose the language</option>
+            <option *ngFor="let lang of listLangs" [value]="lang">{{lang}}</option>
+        </select>
+        <div class="text-danger" *ngIf="mylangs.touched && mylangs.invalid ">
+            Choose atleast one language
+          </div>
+    </div>
+    <div class="form-group">
+
+        <button (click)="getFormsValue(f)">Submit</button>
+
+    </div>
+    
+
+</form>

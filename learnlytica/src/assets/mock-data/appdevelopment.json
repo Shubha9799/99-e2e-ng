@@ -1,0 +1,140 @@
+{
+    "sub-home": {
+        "data": [
+            {
+                "_id": "61a70fae0cf28f8b4fca1aca",
+                "spayee:resource": {
+                    "spayee:title": "Java",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "Java",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 1,
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 2599,
+                    "spayee:price": 1599,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 2599,
+                                    "price": 1599,
+                                    "id": "v1-2599-1599",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR599"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            },
+            {
+                "_id": "61a88b920cf2e6a68684bbca",
+                "spayee:resource": {
+                    "spayee:title": "Microservices using Java Spring Boot",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "Java-and-Spring-Cloud",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 1,
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 1499,
+                    "spayee:price": 1399,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 1499,
+                                    "price": 1399,
+                                    "id": "v1-1499-1399",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR499"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart",
+                    "spayee:language": "English",
+                    "spayee:shortDescription": ""
+                }
+            },
+            {
+                "_id": "61ae538d0cf272041d79ddd9",
+                "spayee:resource": {
+                    "spayee:title": "Reactive Programming with Redux",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "Reactive-Programming-with-Redux",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 1,
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 1699,
+                    "spayee:price": 1599,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 1699,
+                                    "price": 1599,
+                                    "id": "v1-1699-1599",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR599"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            },
+            {
+                "_id": "61ae60310cf20d0abe5b069f",
+                "spayee:resource": {
+                    "spayee:title": "Application Development with Node.js",
+                    "spayee:publisher": "Learnlytica",
+                    "spayee:courseUrl": "Application-Development-with-Nodejs",
+                    "spayee:courseType": "normal",
+                    "spayee:coverVersion": 1,
+                    "spayee:language": "English",
+                    "spayee:shortDescription": "",
+                    "spayee:gstRate": 18,
+                    "spayee:mrp": 1699,
+                    "spayee:price": 1599,
+                    "spayee:pricingIncludingTaxes": true,
+                    "spayee:productVariants": [
+                        {
+                            "validityVariants": [
+                                {
+                                    "type": "ONE_TIME",
+                                    "validityType": "none",
+                                    "mrp": 1699,
+                                    "price": 1599,
+                                    "id": "v1-1699-1599",
+                                    "label": "Lifetime"
+                                }
+                            ],
+                            "id": "p1",
+                            "productType": "INR599"
+                        }
+                    ],
+                    "spayee:purchaseType": "cart"
+                }
+            }
+        ],
+        "total": 5,
+        "limit": 4,
+        "skip": 0
+    },
+    "response": true
+}
