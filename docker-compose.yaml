@@ -16,7 +16,7 @@ services:
   node_app:
     depends_on:
       - mysqldb
-    build: ../learn_dbconn
+    build: .
     container_name: node_app
     restart: unless-stopped
     env_file: ./.env
