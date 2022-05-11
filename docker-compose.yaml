@@ -67,7 +67,7 @@ services:
   app:
     depends_on:
       - mysqldb
-    build: .
+    build: ./api_learn_dbcon/learn_conn
     restart: unless-stopped
     env_file: ./.env
     ports:
